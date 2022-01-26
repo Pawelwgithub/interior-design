@@ -1,0 +1,164 @@
+/* Header */
+
+header {
+  background-color: $color-one;
+}
+
+.navigation {
+  background-color: $color-one;
+}
+
+/* Logo */
+
+header .logo a {
+  position: absolute;
+  font-size: 50px;
+  font-family: $font-logo;
+  line-height: 2.5;
+  top: -25px;
+  left: 150px;
+  color: $color-two;
+  z-index: 11;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+header .logo p {
+  position: absolute;
+  font-size: 20px;
+  font-family: $font-logo-text;
+  line-height: 6.5;
+  top: -18px;
+  left: 180px;
+  color: $color-two;
+  z-index: 11;
+  text-decoration: none;
+}
+
+/* Menu */
+
+.menu ul {
+  padding: 25px 0 25px 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: $color-three;
+  font-family: $font-header;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background: $color-three;
+  border-radius: 5px;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  color: $color-three;
+}
+
+.search input {
+  display: inblock;
+  outline: none;
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  padding: 0px 0px 0px 10px;
+  font-size: 1em;
+  color: $color-one;
+  max-width: 100%;
+  border: 2px solid $color-three;
+  float: right;
+  margin: 20px 20px 0px 0px;
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color-four;
+  font-family: $font-text;
+  font-size: 16px;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $color-four;
+  font-family: $font-text;
+  font-size: 16px;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $color-one;
+  font-family: $font-text;
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $color-one;
+  font-family: $font-text;
+  font-size: 16px;
+}
+
+/* Banner */
+
+.banner {
+  height: 90vh;
+  position: relative;
+  color: $color-three;
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+/* Intro */
+
+.intro {
+  margin: auto;
+  max-width: 70%;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    max-width: 100%;
+  }
+}
+
+.intro a {
+  font-weight: bold;
+}
+
+.page-title {
+  margin: 140px 0 0 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: $font-text;
+}
+
+.page-subtitle {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 400;
+  font-family: $font-header;
+}
