@@ -265,4 +265,131 @@ header .logo p {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* Our services */
+.our-services {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.our-services .section-title h1 {
+  margin: 0 0 20px 30px;
+}
+
+.our-services .services {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  position: relative;
+  text-align: center;
+}
+
+.services i {
+  font-size: 35px;
+  background: #ffffff;
+  border-radius: 5%;
+  width: 70px;
+  height: 70px;
+  color: #0097e6;
+  line-height: 2.0;
+  border-color: #0097e6;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.services img {
+  font-size: 20px;
+  background: #ffffff;
+  border-radius: 5%;
+  width: 70px;
+  height: 70px;
+  color: #0097e6;
+  line-height: 2.0;
+  border-color: #0097e6;
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.services p {
+  color: #777777;
+  margin: 25px;
+  text-align: justify;
+}
+
+/* Our portfolio */
+.our-portfolio {
+  background: #f7f7f7;
+}
+
+.our-portfolio .section-title h1 {
+  margin: 0 0 20px 30px;
+}
+
+.our-portfolio-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.our-portfolio-wrapper .portfolio {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  min-height: 300px;
+  margin: 20px 0 20px 0;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.portfolio.left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 442px;
+  border-radius: 5px;
+  float: left;
+}
+
+.portfolio.left p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  text-align: justify;
+  padding: 0 40px 0 480px;
+}
+
+.portfolio.right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 442px;
+  border-radius: 5px;
+  float: right;
+}
+
+.portfolio.right p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  text-align: justify;
+  padding: 0 480px 0 40px;
+}
+
+.our-portfolio-wrapper .portfolio:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.16);
+  transition: 1s;
+}
+
 /*# sourceMappingURL=style.css.map */

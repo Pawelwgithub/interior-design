@@ -1,0 +1,73 @@
+/* Our portfolio */
+
+.our-portfolio {
+  background: $color-five;
+}
+
+.our-portfolio .section-title h1 {
+  margin: 0 0 20px 30px;
+}
+
+.our-portfolio-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.our-portfolio-wrapper .portfolio {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  min-height: 300px;
+  margin: 20px 0 20px 0;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: $color-one;
+  border-radius: 5px;
+}
+
+.portfolio.left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 442px;
+  border-radius: 5px;
+  float: left;
+}
+
+.portfolio.left p {
+  font-size: 18px;
+  font-family: $font-text;
+  color: $color-four;
+  text-align: justify;
+  padding: 0 40px 0 480px;
+}
+
+.portfolio.right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 442px;
+  border-radius: 5px;
+  float: right;
+}
+
+.portfolio.right p {
+  font-size: 18px;
+  font-family: $font-text;
+  color: $color-four;
+  text-align: justify;
+  padding: 0 480px 0 40px;
+}
+
+.our-portfolio-wrapper .portfolio:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 40px 40px 0 rgba(0,0,0,0.16);
+  transition: 1s;
+}
