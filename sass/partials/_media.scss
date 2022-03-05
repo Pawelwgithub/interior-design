@@ -187,4 +187,11 @@
   .btn-one {
     margin: 150px auto 0 auto;
   }
+
+  /* Scroll to top */
+
+  .scroll-to-top-icon i:hover {
+    color: $color-three;
+    border-color: $color-three;
+  }
 }
